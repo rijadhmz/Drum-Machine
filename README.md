@@ -33,7 +33,7 @@ The project utilizes React to create a user-friendly interface. Drum pad element
 
 ### Project URL
 
-To interact with the deployed project, visit [Project URL](https://codepen.io/rijadhmz/pen/WNYJzJM).
+To interact with the deployed project, visit my [Codepen Project](https://codepen.io/rijadhmz/pen/WNYJzJM).
 
 This project showcases the integration of React and user interaction, providing a hands-on experience of playing and experimenting with drum sounds.
 
