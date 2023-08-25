@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## Drum Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project involves a React application that functions as a "Drum Machine." It was developed as part of the FreeCodeCamp "Front End Development Libraries" course certification.
 
-## Available Scripts
+### Project Description
 
-In the project directory, you can run:
+The Drum Machine is an interactive web application built using React. The application provides users with the ability to play different drum sounds by clicking on drum pad elements or using keyboard keys. It offers a playful and engaging way to create rhythm and experiment with various sounds.
 
-### `npm start`
+### Challenge Requirement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The challenge required building an app that fulfills the following user stories:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. The app contains an outer container with the id "drum-machine."
+2. Within the container, there is an element with the id "display."
+3. There are nine clickable drum pad elements, each representing a sound and having a unique id and inner text corresponding to a keyboard key.
+4. Each drum pad contains an HTML5 audio element with a class name "clip," a src attribute pointing to an audio clip, and an id corresponding to the inner text.
+5. Clicking on a drum pad or pressing the associated keyboard key triggers the audio clip.
+6. The display element shows a string describing the associated audio clip when a drum pad is triggered.
 
-### `npm test`
+### Implementation Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project utilizes React to create a user-friendly interface. Drum pad elements can be clicked or triggered via keyboard input, allowing users to explore and play sounds. Event listeners for both mouse clicks and keyboard input were implemented. The audio elements play the corresponding drum sounds, and the display updates to show the name of the played sound.
 
-### `npm run build`
+### Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Bootstrap (for styling)
+- HTML5 Audio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Example
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Drum-Machine](https://github.com/rijadhmz/Drum-Machine/blob/secondary/images/example.png?raw=true)
 
-### `npm run eject`
+### Project URL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To interact with the deployed project, visit [Project URL](https://codepen.io/rijadhmz/pen/WNYJzJM).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project showcases the integration of React and user interaction, providing a hands-on experience of playing and experimenting with drum sounds.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
